@@ -20,7 +20,8 @@ public class Arff2CSV {
   
   public static void main(String[] args) throws Exception {
     
-    // load ARFF
+	  System.out.println("fuck offf.....");
+    /*// load ARFF
     ArffLoader loader = new ArffLoader();
     loader.setSource(new File("/home/likewise-open/ACADEMIC/csstnns/Desktop/qdb.arff"));
     Instances data = loader.getDataSet();//get instances object
@@ -30,7 +31,7 @@ public class Arff2CSV {
     saver.setInstances(data);//set the dataset we want to convert
     //and save as CSV
     saver.setFile(new File("/home/likewise-open/ACADEMIC/csstnns/Desktop/nqdb.csv"));
-    saver.writeBatch();
+    saver.writeBatch();*/
   }
 } 
 

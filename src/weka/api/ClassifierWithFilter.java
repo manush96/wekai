@@ -12,7 +12,7 @@
 package weka.api;
 //import required classes
 import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
+import weka.core.converters.ConverterUtils.*;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.J48;
 import weka.filters.unsupervised.attribute.Remove;
@@ -20,6 +20,7 @@ import weka.filters.unsupervised.attribute.Remove;
 public class ClassifierWithFilter{
 	public static void main(String args[]) throws Exception{
 		//load dataset
+		
 		DataSource source = new DataSource("/home/likewise-open/ACADEMIC/csstnns/Desktop/iris.arff");
 		Instances dataset = source.getDataSet();
 		//set class index to the last attribute
